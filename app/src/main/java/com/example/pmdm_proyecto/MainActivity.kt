@@ -24,6 +24,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val botonPartida = findViewById<Button>(R.id.btnMenuPartida)
+        botonPartida.setOnClickListener {
+            val intent = Intent(this, GalleryActivity::class.java)
+            startActivity(intent)
+        }
+
 
 
     }

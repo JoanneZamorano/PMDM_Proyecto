@@ -37,5 +37,12 @@
         android:id="@+id/btnMenuSonidos"
         android:backgroundTint="#FE5E37"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Partida"
+        android:id="@+id/btnMenuPartida"
+        android:backgroundTint="#E54444"/>
+
 
 </LinearLayout>
