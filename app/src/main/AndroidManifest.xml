@@ -11,6 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PMDM_Proyecto">
+        <activity android:name=".ListActivity"/>
+        <activity android:name=".VideoActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
