@@ -4,14 +4,14 @@
     android:layout_height="match_parent"
     android:padding="20dp"
     android:orientation="vertical"
-    android:gravity="center"
+    android:gravity="start"
     android:background="#0F272F">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Videos"
-        android:textSize="15dp"
+        android:textSize="30dp"
         android:paddingBottom="50dp"
         android:textStyle="bold"
         android:textColor="#fff"/>

@@ -13,6 +13,7 @@
         android:theme="@style/Theme.PMDM_Proyecto">
         <activity android:name=".ListActivity"/>
         <activity android:name=".VideoActivity"/>
+        <activity android:name=".SoundActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

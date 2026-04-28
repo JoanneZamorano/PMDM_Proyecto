@@ -1,6 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="start"
+    android:background="#0F272F"
+    android:padding="20dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sonidos"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"/>
+
+    <SeekBar
+        android:id="@+id/seekBarSonido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:progressTint="#FE5E37"
+        android:thumbTint="#FE5E37"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Efectos de Sonido"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnEspada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ataque de Espada"
+        android:backgroundTint="#E54444"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnFuego"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bola de Fuego"
+        android:backgroundTint="#E54444"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sonidos de Ambiente"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/btnBosque"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bosque encantado"
+        android:backgroundTint="#FE5E37"/>
+
+    <Button
+        android:id="@+id/btnMazmorras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mazmorras"
+        android:backgroundTint="#FE5E37"/>
+
+
+
+
+</LinearLayout>

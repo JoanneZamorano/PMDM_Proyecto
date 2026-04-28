@@ -18,6 +18,13 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val botonSonidos = findViewById<Button>(R.id.btnMenuSonidos)
+        botonSonidos.setOnClickListener {
+            val intent = Intent(this, SoundActivity::class.java)
+            startActivity(intent)
+        }
+
+
 
     }
 }
