@@ -33,7 +33,7 @@ class SoundActivity : AppCompatActivity() {
         btnBosque.setOnClickListener { reproducirSonido(R.raw.soundforest) }
         btnMazmorras.setOnClickListener { reproducirSonido(R.raw.soundcatacombs) }
 
-        //barra interactiva (poder saltar a un minuto)
+        //barra interactiva
         seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(p0: SeekBar?, progress: Int, fromUser: Boolean) {
                 if (fromUser) mp?.seekTo(progress)

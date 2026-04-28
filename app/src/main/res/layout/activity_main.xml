@@ -44,5 +44,12 @@
         android:id="@+id/btnMenuPartida"
         android:backgroundTint="#E54444"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dado"
+        android:id="@+id/btnMenuDado"
+        android:backgroundTint="#FE5E37"/>
+
 
 </LinearLayout>

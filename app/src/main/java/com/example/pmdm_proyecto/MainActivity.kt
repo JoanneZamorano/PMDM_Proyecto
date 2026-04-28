@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
-
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,6 +26,12 @@ class MainActivity : AppCompatActivity() {
         val botonPartida = findViewById<Button>(R.id.btnMenuPartida)
         botonPartida.setOnClickListener {
             val intent = Intent(this, GalleryActivity::class.java)
+            startActivity(intent)
+        }
+
+        val botonDado = findViewById<Button>(R.id.btnMenuDado)
+        botonDado.setOnClickListener {
+            val intent = Intent(this, DadoActivity::class.java)
             startActivity(intent)
         }
 
