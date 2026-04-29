@@ -1,5 +1,7 @@
 package com.example.pmdm_proyecto
 
+import BotonVolver
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -14,6 +16,9 @@ class GalleryActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_gallery)
+
+        //boton volver
+        BotonVolver()
 
         //Personajes
         findViewById<ImageView>(R.id.imgHeroe1).setOnClickListener {

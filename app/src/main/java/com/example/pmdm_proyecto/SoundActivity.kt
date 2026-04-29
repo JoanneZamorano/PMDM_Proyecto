@@ -1,5 +1,7 @@
 package com.example.pmdm_proyecto
 
+import BotonVolver
+import android.content.Intent
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.os.Handler
@@ -16,6 +18,9 @@ class SoundActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sound)
+
+        //boton volver
+        BotonVolver()
 
         //seekBar -> barra sonido
         seekBar = findViewById(R.id.seekBarSonido)

@@ -1,6 +1,8 @@
 package com.example.pmdm_proyecto
+import BotonVolver
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -9,6 +11,9 @@ class ListActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView((R.layout.activity_list))
+
+        //boton volver
+        BotonVolver()
 
         val recycler = findViewById<RecyclerView>(R.id.recyclerVideos)
         recycler.layoutManager = LinearLayoutManager(this)

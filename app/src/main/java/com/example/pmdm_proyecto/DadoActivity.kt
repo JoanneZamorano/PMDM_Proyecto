@@ -1,7 +1,10 @@
 package com.example.pmdm_proyecto
 
+import BotonVolver
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -11,6 +14,9 @@ class DadoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dado)
+
+        //boton volver
+        BotonVolver()
 
         val imgDado = findViewById<ImageView>(R.id.imgDado)
         val txtResultado = findViewById<TextView>(R.id.txtResultadoDado)
